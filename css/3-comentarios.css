@@ -1,0 +1,29 @@
+.comments{
+
+    background-image: url(../img/bg-clients.jpeg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+
+}
+
+.comments.linear-white::after{
+    top: 0;
+}
+
+.commets_img{
+
+    --tamaño:80px;
+    width: var(--tamaño);
+    height: var(--tamaño);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 7px, 7px, 7px, rgba(0, 0, 0, 0.5);
+    border: 3px ridge #fff;
+
+}
+
+.transform-turn{
+    transform: rotate(.5turn);
+}
+

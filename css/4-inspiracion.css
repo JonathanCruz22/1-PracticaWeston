@@ -1,0 +1,8 @@
+.media-object-img{
+    
+    --tamaño:65px;
+    width: var(--tamaño);
+    height: var(--tamaño);
+    margin-right: 15px;
+
+}

@@ -1,0 +1,23 @@
+.header{
+
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.img-logo{
+    width: 40px;
+}
+
+.vh-50{
+    height: 50vmin;
+}
+
+/* Media queries */
+@media screen and (max-width: 375px){
+    .vh-50 {
+        height: 60vmax;
+    }
+}

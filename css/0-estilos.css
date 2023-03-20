@@ -1,0 +1,24 @@
+@import url(./1-header.css);
+@import url(./2-experience.css);
+@import url(./3-comentarios.css);
+@import url(./4-inspiracion.css);
+@import url(./5-carousel.css);
+
+
+
+/* ESTILOS GENERALES */
+a {
+    text-decoration: none;
+}
+
+/* oculta linea de la imagen cut */
+.linear-white::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
